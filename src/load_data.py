@@ -23,7 +23,7 @@ def download_and_move_data():
         
         shutil.move(source, destination)
         
-    print(f"Data files moved to project directory: {TARGET_RAW_DIR}")
+    print(f"Data files moved to project directory : {TARGET_RAW_DIR}")
     return TARGET_RAW_DIR
 
 if __name__ == "__main__":
